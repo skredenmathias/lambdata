@@ -14,8 +14,8 @@ def set_display_options(rows, columns):  # 3rd: pandas option
     pd.set_option('display.max_columns', columns)
     return rows, columns
 
-# train / val / test split function
 
+# train / val / test split function
 
 def train_test_split(df, random_state=42):
     """
@@ -24,6 +24,5 @@ def train_test_split(df, random_state=42):
     if len(df) < 3:
         print('no bueno')
     train, test = train_test_split(df, test_size=.2, random_state=random_state)
-    train, val = train_test_split(
-        train, test_size=.2, random_state=random_state)
+    train, val = train_test_split(train, test_size=.2, random_state=random_state)
     return train, test, val
