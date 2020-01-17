@@ -1,15 +1,8 @@
 # lambdata
-a collection of data science helper functions
 
-# What is going on?
 This is a loose collection of code that is ever-expanding. It currently has no purpose, but to make me a better programmer.
 Additionally it has the broader goal of containing useful and reproducible code that others will enjoy using.
 
-# Version
-1.6
-
-# License
-**MIT**, see GreyLICENSE.txtGrey for further details.
 
 # Installation
 Lambdata is written for Python 3. Hopefully the module has no external dependencies. 
@@ -31,14 +24,5 @@ import sys; if MODULE not in sys.path: sys.path.append(MODULE)
 from pattern.en import parsetree
 Grey
 
-# Documentation
-https://docs.pytest.org/en/latest/
-
 # Contribute
 The source code is hosted on GitHub and contributions or donations are welcomed. 
-
-# Bundled dependencies
-Lambdata is bundled with the following data sets, algorithms, and Python packages:
-**Pandas**, Pandas/dev
-**Numpy**, numpy/dev
-**Unittest**
